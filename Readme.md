@@ -11,6 +11,8 @@
   <em>Powered by CNN · ResNet50V2 · MobileNetV2 · Late Fusion Ensemble</em>
 </p>
 
+![redundancy-resiliency-banner-1680x885](https://github.com/user-attachments/assets/15cb7aa0-27b1-41a7-9474-5f64b9fb354c)
+
 **SolarStormNet** is a robust deep learning pipeline designed to classify solar storm imagery using a multimodal dataset consisting of *continuum* and *magnetogram* images. It integrates handcrafted CNN architectures and transfer learning models (ResNet50V2 and MobileNetV2) into an ensemble system that captures rich spatial and modality-aware features. The final hybrid model improves classification accuracy for different magnetic classes: `alpha`, `beta`, and `betax`.
 
 ---
@@ -97,7 +99,8 @@ The notebook is structured in the following steps:
 
 Below are examples of true and predicted classifications using the trained hybrid model. The fifth image shows a misclassified case (`True: 0`, `Pred: 1`).
 
-![Misclassification Examples](1)
+![Misclassification Examples](![output2](https://github.com/user-attachments/assets/1c1abe7c-55bd-4f44-89bc-06823f26ff59)
+)
 
 ---
 
@@ -105,7 +108,8 @@ Below are examples of true and predicted classifications using the trained hybri
 
 This plot compares the validation loss over epochs for the CNN, ResNet50V2, and MobileNetV2 models. The CNN model shows the steepest decline, indicating faster convergence.
 
-![Loss Comparison](-)
+![Loss Comparison](![LOSS](https://github.com/user-attachments/assets/ec401155-7ec3-418c-926b-822a4c08e381)
+)
 
 ---
 
@@ -113,7 +117,10 @@ This plot compares the validation loss over epochs for the CNN, ResNet50V2, and 
 
 The following plot illustrates the accuracy progression for all models across training epochs:
 
-![Accuracy Comparison](-)
+![Accuracy Comparison](![2](https://github.com/user-attachments/assets/1472fda1-a3b9-4f5b-8ce9-c25570c32acf)
+![output3](https://github.com/user-attachments/assets/16154279-d9cf-4872-ab3c-7259d086e98a)
+
+)
 
 ---
 ---
