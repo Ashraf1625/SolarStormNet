@@ -99,30 +99,28 @@ The notebook is structured in the following steps:
 
 Below are examples of true and predicted classifications using the trained hybrid model. The fifth image shows a misclassified case (`True: 0`, `Pred: 1`).
 
-![Misclassification Examples](![output2](https://github.com/user-attachments/assets/1c1abe7c-55bd-4f44-89bc-06823f26ff59)
-)
+## Misclassification Examples
+![output2](https://github.com/user-attachments/assets/1c1abe7c-55bd-4f44-89bc-06823f26ff59)
 
 ---
 
 ## 📉 Training Loss Comparison
 
 This plot compares the validation loss over epochs for the CNN, ResNet50V2, and MobileNetV2 models. The CNN model shows the steepest decline, indicating faster convergence.
-
-![Loss Comparison](![LOSS](https://github.com/user-attachments/assets/ec401155-7ec3-418c-926b-822a4c08e381)
-)
+## Loss Comparison
+![LOSS](https://github.com/user-attachments/assets/ec401155-7ec3-418c-926b-822a4c08e381)
 
 ---
 
 ## 📈 Accuracy Over Epochs
 
 The following plot illustrates the accuracy progression for all models across training epochs:
+## CNN, ResNet50V2, MobileNetV2 Classifiers
+![2](https://github.com/user-attachments/assets/1472fda1-a3b9-4f5b-8ce9-c25570c32acf)
 
-![Accuracy Comparison](![2](https://github.com/user-attachments/assets/1472fda1-a3b9-4f5b-8ce9-c25570c32acf)
+## Hybrid Classifier
 ![output3](https://github.com/user-attachments/assets/16154279-d9cf-4872-ab3c-7259d086e98a)
 
-)
-
----
 ---
 
 ## 📋 Evaluation Metrics Summary
