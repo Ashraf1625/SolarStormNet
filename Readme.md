@@ -207,10 +207,5 @@ BASE_DIR = "solar-storm-recognition-dataset/project1/project1"
 
 - **Dataset**: DjZeZeV via Kaggle
 - **Libraries**: TensorFlow, Keras, OpenDatasets, Matplotlib, Seaborn
-- **Team**: Deep Learning Engineers at Galala University (or your team name)
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this code for both academic and commercial purposes.
